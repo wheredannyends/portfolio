@@ -1,0 +1,31 @@
+
+
+
+
+@font-face {
+   font-family: 'Bjorn';
+   src: url(/fonts/Bjorn%20Regular.otf);
+}
+
+
+body {
+   text-align: center;
+}
+
+
+
+h1 {
+   font-family: 'Bjorn', sans-serif;
+   letter-spacing: 30px;
+   font-size: 4em;
+}
+
+h2 {
+   font-family: 'Bjorn', sans-serif;
+   letter-spacing: 10px;
+}
+
+h3 {
+   font-family: 'Cormorant Garamond', serif;
+   letter-spacing: 10px;
+}
