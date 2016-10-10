@@ -2,30 +2,105 @@
 
 
 
-@font-face {
-   font-family: 'Bjorn';
-   src: url(/fonts/Bjorn%20Regular.otf);
-}
-
-
 body {
+   background-color: #92A6A6;
    text-align: center;
 }
 
 
-
 h1 {
-   font-family: 'Bjorn', sans-serif;
+   font-family: 'Oswald', sans-serif;
    letter-spacing: 30px;
    font-size: 4em;
+   margin: 0 auto;
 }
 
 h2 {
-   font-family: 'Bjorn', sans-serif;
-   letter-spacing: 10px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 24px;
+   font-size: 2em;
+   margin: 0 auto;
 }
 
 h3 {
    font-family: 'Cormorant Garamond', serif;
+   font-size: 1.4em;
+}
+
+p {
+   font-family: 'Courier New', serif;
+}
+
+.content {
+   max-width: 1140px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.top {
+   background-color: #E4EAF2;
+   color: #A65C41;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 15px 0;
+}
+
+.top h1 {
+   margin-left: 30px;
+}
+
+.top h2 {
+   margin-left: 28px;
+}
+
+.bottom {
+   background-color: #A65C41;
+   color: #E4EAF2;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.icons {
+   background-color: #A65C41;
+   max-width: 600px;
+   color: #E4EAF2;
+   margin: 0 auto;
+   padding-bottom: 25px;
+   font-size: 2em;
    letter-spacing: 10px;
 }
+
+.icons a {
+   color: #E4EAF2;
+}
+
+#github:hover {
+   color: #92A6A6;
+   transition: 0.2s;
+}
+
+#flickr:hover {
+   color: #92A6A6;
+   transition: 0.2s;
+}
+
+#behance:hover {
+   color: #92A6A6;
+   transition: 0.2s;
+}
+
+#linkedin:hover {
+   color: #92A6A6;
+   transition: 0.2s;
+}
+
+#instagram:hover {
+   color: #92A6A6;
+   transition: 0.2s;
+}
+
+
+
+
+
