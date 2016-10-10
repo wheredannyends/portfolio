@@ -1,6 +1,6 @@
 
 
-
+/* OVERALL STYLE */
 
 body {
    background-color: #92A6A6;
@@ -31,11 +31,15 @@ p {
    font-family: 'Courier New', serif;
 }
 
-.content {
+body {
    max-width: 1140px;
    margin: 0 auto;
    margin-top: 50px;
 }
+
+
+/* TOP */
+
 
 .top {
    background-color: #E4EAF2;
@@ -53,6 +57,10 @@ p {
    margin-left: 28px;
 }
 
+
+/* BOTTOM */
+
+
 .bottom {
    background-color: #A65C41;
    color: #E4EAF2;
@@ -60,6 +68,10 @@ p {
    margin: 0 auto;
    padding: 50px 0;
 }
+
+
+/* SOCIAL MEDIA ICONS */
+
 
 .icons {
    background-color: #A65C41;
@@ -101,6 +113,11 @@ p {
 }
 
 
+/* STRONG GUYS LOGO */
+
+.sglogo {
+   margin-top: 20px;
+}
 
 
 
