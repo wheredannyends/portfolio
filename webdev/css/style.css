@@ -1,0 +1,28 @@
+
+
+
+body {
+   font-family: 'Oswald', sans-serif;
+   font-size: 2em;
+   text-align: center;
+}
+
+
+nav ul {
+   list-style-type: none;
+}
+
+nav ul li {
+   margin: 20px;
+}
+
+nav ul li a {
+   list-style-type: none;
+   text-decoration: none;
+   color: #888888;
+   transition: 0.5s;
+}
+
+nav ul li a:hover {
+   color: #000000;
+}

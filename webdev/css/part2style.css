@@ -1,0 +1,161 @@
+/* GREEN = a2a26d */
+
+
+
+/* OVERALL */
+
+.part2 {
+   max-width: 1140px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+
+/* PART 2 */
+
+
+.part2 h1 {
+   font-family: 'Fjalla One', sans-serif;
+}
+
+.part2 h2 {
+   font-family: 'Patua One', serif;
+}
+
+.part2 h3 {
+   font-family: 'Josefin Sanas', sans-serif;
+}
+
+.part2 h4 {
+   font-family: 'Bungee', sans-serif;
+}
+
+.part2 h5 {
+   font-family: 'Droid Serif', serif;
+}
+
+.part2 p {
+   font-family: 'Droid Serif', serif;
+}
+
+
+
+
+#bar1 {
+   font-size: 15pt;
+   letter-spacing: 10px;
+   border-top: 1pt solid #a2a26d;
+   border-bottom: 2pt solid #a2a26d;
+   line-height: 0;
+   margin: 10px;
+   background-color: #a2a26d;
+}
+
+#bar1 span {
+   background:#ffffff;
+          padding:20px 10px 22px 15px;
+}
+
+#belowbar1 h1 {
+   margin: 0;
+   font-size: 5.4em;
+   letter-spacing: 10px;
+}
+
+#belowbar1 h2 {
+   margin-top: -15px;
+   margin-bottom: -5px;
+   margin-left: 10px;
+   font-size: 3.5em;
+   letter-spacing: 15px;
+}
+
+
+
+
+#bar2 {
+   font-size: 15pt;
+   letter-spacing: 10px;
+   border-top: 1pt solid #90e1eb;
+   border-bottom: 2pt solid #90e1eb;
+   line-height: 0;
+   margin: 10px;
+   background-color: #90e1eb;
+}
+
+#bar2 span {
+   background:#ffffff;
+   padding:20px 10px 20px 15px;
+}
+
+#belowbar2 h5 {
+   letter-spacing: 6.2px;
+   margin-top: 15px;
+}
+
+#belowbar2 h1 {
+   font-size: 7em;
+   margin: -20px 0 -5px 0;
+   font-size: 7em;
+   letter-spacing: 10px;
+}
+
+
+
+
+
+#bar3 {
+   font-size: 15pt;
+   letter-spacing: 10px;
+   border-top: 1pt solid #c93f2e;
+   border-bottom: 2pt solid #c93f2e;
+   line-height: 0;
+   margin: 10px;
+   background-color: #c93f2e;
+}
+
+#bar3 span {
+   background:#ffffff;
+          padding:20px 10px 22px 15px;
+}
+
+#belowbar3 h1 {
+   font-size: 2em;
+   letter-spacing: 4.7px;
+   margin-top: 15px;
+}
+
+#belowbar3 h4 {
+   font-size: 7em;
+   margin-top: -45px;
+   margin-bottom: -20px;
+   font-size: 8.7em;
+   letter-spacing: 10px;
+}
+
+
+
+
+#bar5 {
+   font-size: 15pt;
+   letter-spacing: 10px;
+   border-top: 1pt solid #73ba79;
+   border-bottom: 2pt solid #73ba79;
+   line-height: 0;
+   margin: 10px;
+   background-color: #73ba79;
+}
+
+#bar5 span {
+   background:#ffffff;
+          padding:15px 10px 15px 15px;
+}
+
+
+.bottomp {
+   align-content: center;
+   max-width: calc(50% - 40px);
+   margin: 10px;
+   margin-left: 20px;
+   float: left;
+}

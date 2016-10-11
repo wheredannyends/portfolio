@@ -27,14 +27,11 @@ h3 {
    font-size: 1.4em;
 }
 
-p {
-   font-family: 'Courier New', serif;
-}
 
 body {
    max-width: 1140px;
-   margin: 0 auto;
-   margin-top: 50px;
+   margin: 50px auto;
+   font-family: 'Courier New', serif;
 }
 
 
@@ -58,15 +55,71 @@ body {
 }
 
 
-/* BOTTOM */
+/* ABOUT */
 
 
-.bottom {
+.about {
    background-color: #A65C41;
    color: #E4EAF2;
    max-width: 600px;
    margin: 0 auto;
    padding: 50px 0;
+}
+
+
+
+/* WORK */
+
+
+.work {
+   background-color: #A65C41;
+   color: #E4EAF2;
+   max-width: 600px;
+   margin: 0 auto;
+   margin-top: -30px;
+   padding: 10px 0;
+}
+
+.work nav ul {
+   list-style-type: none;
+   padding-left: 0;
+   margin-bottom: 20px;
+}
+
+.work nav ul li {
+   margin-top: 5px;
+}
+
+.work nav ul li a {
+   list-style-type: none;
+   text-decoration: none;
+   color: #E4EAF2;
+   transition: 0.2s;
+}
+
+.work nav ul li a:hover {
+   color: #92A6A6;
+}
+
+
+/* CONTACT */
+
+.contact {
+   background-color: #A65C41;
+   color: #E4EAF2;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 10px 0;
+}
+
+.contact a {
+   text-decoration: none;
+   color: #E4EAF2;
+   transition: 0.2s;
+}
+
+.contact a:hover {
+   color: #92A6A6;
 }
 
 
@@ -76,47 +129,31 @@ body {
 .icons {
    background-color: #A65C41;
    max-width: 600px;
-   color: #E4EAF2;
    margin: 0 auto;
-   padding-bottom: 25px;
+   padding-top: 70px;
+   padding-bottom: 15px;
    font-size: 2em;
-   letter-spacing: 10px;
+   letter-spacing: 5px;
+   transition: 0.2s;
 }
 
 .icons a {
    color: #E4EAF2;
-}
-
-#github:hover {
-   color: #92A6A6;
    transition: 0.2s;
 }
 
-#flickr:hover {
+.icons a:hover {
    color: #92A6A6;
-   transition: 0.2s;
-}
-
-#behance:hover {
-   color: #92A6A6;
-   transition: 0.2s;
-}
-
-#linkedin:hover {
-   color: #92A6A6;
-   transition: 0.2s;
-}
-
-#instagram:hover {
-   color: #92A6A6;
-   transition: 0.2s;
 }
 
 
 /* STRONG GUYS LOGO */
 
 .sglogo {
-   margin-top: 30px;
+   background-color: #E4EAF2;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px 0;
 }
 
 
