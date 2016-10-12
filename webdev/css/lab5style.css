@@ -1,0 +1,90 @@
+body {
+   font-family: 'Lato', sans-serif;
+   font-size: 14pt;
+   color: #A65C41;
+   margin: 0 auto;
+   background-color: #E4EAF1;
+}
+
+.background-image{
+   position: absolute;
+   left: -10px;
+   right: -10px;
+   top: -10px;
+   bottom: 0;
+   background: url('../../images/background.jpg');
+   background-size: cover;
+   z-index: -1;
+
+   -webkit-filter: blur(5px);
+   -moz-filter: blur(5px);
+   -o-filter: blur(5px);
+   -ms-filter: blur(5px);
+   filter: blur(5px);	
+}
+
+.content{
+   max-width: 800px;
+   position: relative;
+   z-index: 1;
+   color: #A65C41;
+   margin: 50px auto;
+}
+
+header {
+   overflow: hidden;
+   bottom: 0px;
+   background-color: #E4EAF1;
+   width: 100%;
+   height: 70px;
+   padding-bottom: 50px;
+   text-align: center;
+   z-index: 1;
+   border-bottom-style: solid;
+   border-width: thick;
+   border-bottom-color: #A65C41;
+}
+
+h1 {
+   text-align: center;
+   padding-top: 10px;
+}
+
+ul {
+   list-style-position: inside;
+   list-style-image: url(../../images/sgbullets.png);
+}
+
+.belowheading1 {
+   max-width: 49%;
+   float: left;
+   color: #E4EAF1;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.belowheading2 {
+   max-width: 49%;
+   float: left;
+   font-size: 20pt;
+   color: #E4EAF1;
+   margin-top: 130px;
+   margin-left: 50px;
+}
+
+footer {
+   background-image: url(../../images/pattern.png);
+   background-repeat: repeat;
+   position: absolute;
+   overflow: hidden;
+   bottom: 0px;
+   background-color: #E4EAF1;
+   width: 100%;
+   height: 70px;
+   padding-top: 50px;
+   text-align: center;
+   z-index: 2;
+   border-top-style: solid;
+   border-width: thick;
+   border-top-color: #A65C41;
+}
