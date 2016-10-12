@@ -32,6 +32,8 @@ body {
 }
 
 header {
+   background-image: url(../../images/pattern.png);
+   background-repeat: repeat;
    overflow: hidden;
    bottom: 0px;
    background-color: #E4EAF1;
