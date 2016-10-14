@@ -1,7 +1,7 @@
 
 p {
    font-family: 'Cormorant Garamond', serif;
-   font-size: .98em;
+   font-size: .98em; /* this is weird */
 }
 
 .part3 {
@@ -17,6 +17,8 @@ p {
    float: left;
    margin-right: 2rem;
    border-radius: 50%;
+   -webkit-shape-outside: circle();
    shape-outside: circle();
+   -webkit-shape-outside: circle();
    shape-outside: circle();
 }

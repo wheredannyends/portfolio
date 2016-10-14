@@ -41,28 +41,28 @@
 
 
 
-#bar1 {
-   font-size: 15pt;
+.bar1 {
+   font-size: 15px;
    letter-spacing: 10px;
-   border-top: 1pt solid #a2a26d;
-   border-bottom: 2pt solid #a2a26d;
+   border-top: 1px solid #a2a26d;
+   border-bottom: 2px solid #a2a26d;
    line-height: 0;
    margin: 10px;
    background-color: #a2a26d;
 }
 
-#bar1 span {
+.bar1 span {
    background:#ffffff;
           padding:20px 10px 22px 15px;
 }
 
-#belowbar1 h1 {
+.belowbar1 h1 {
    margin: 0;
    font-size: 5.4em;
    letter-spacing: 10px;
 }
 
-#belowbar1 h2 {
+.belowbar1 h2 {
    margin-top: -15px;
    margin-bottom: -5px;
    margin-left: 10px;
@@ -73,7 +73,7 @@
 
 
 
-#bar2 {
+.bar2 {
    font-size: 15pt;
    letter-spacing: 10px;
    border-top: 1pt solid #90e1eb;
@@ -83,17 +83,17 @@
    background-color: #90e1eb;
 }
 
-#bar2 span {
+.bar2 span {
    background:#ffffff;
    padding:20px 10px 20px 15px;
 }
 
-#belowbar2 h5 {
+.belowbar2 h5 {
    letter-spacing: 6.2px;
    margin-top: 15px;
 }
 
-#belowbar2 h1 {
+.belowbar2 h1 {
    font-size: 7em;
    margin: -20px 0 -5px 0;
    font-size: 7em;
@@ -104,7 +104,7 @@
 
 
 
-#bar3 {
+.bar3 {
    font-size: 15pt;
    letter-spacing: 10px;
    border-top: 1pt solid #c93f2e;
@@ -114,18 +114,18 @@
    background-color: #c93f2e;
 }
 
-#bar3 span {
+.bar3 span {
    background:#ffffff;
           padding:20px 10px 22px 15px;
 }
 
-#belowbar3 h1 {
+.belowbar3 h1 {
    font-size: 2em;
    letter-spacing: 4.7px;
    margin-top: 15px;
 }
 
-#belowbar3 h4 {
+.belowbar3 h4 {
    font-size: 7em;
    margin-top: -45px;
    margin-bottom: -20px;
@@ -136,7 +136,7 @@
 
 
 
-#bar5 {
+.bar5 {
    font-size: 15pt;
    letter-spacing: 10px;
    border-top: 1pt solid #73ba79;
@@ -146,13 +146,15 @@
    background-color: #73ba79;
 }
 
-#bar5 span {
+.bar5 span {
    background:#ffffff;
           padding:15px 10px 15px 15px;
 }
 
 
 .bottomp {
+   -webkit-align-content: center;
+   -ms-flex-line-pack: center;
    align-content: center;
    max-width: calc(50% - 40px);
    margin: 10px;

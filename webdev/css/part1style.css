@@ -1,7 +1,3 @@
-
-
-
-
 /* OVERALL */
 
 .part1 {
@@ -9,27 +5,25 @@
    margin: 0 auto;
 }
 
-/* PART 1 */
+
+
+
+
+/* FONTS */
 
 
 .part1 h2 {
-   font-family: 'Oswald', sans-serif;
    font-size: 8em;
    margin: 0;
 }
 
-.part1 h3 {
-   font-family: 'Droid Serif', serif;
-}
-
+.part1 h2,
 .part1 h4 {
    font-family: 'Oswald', sans-serif;
 }
 
-.part1 h5 {
-   font-family: 'Droid Serif', serif;
-}
-
+.part1 h5,
+.part1 h3,
 .part1 p {
    font-family: 'Droid Serif', serif;
 }
@@ -37,12 +31,15 @@
 
 
 
-#part1left {
+
+/* CONTENT */
+
+.part1left {
    max-width: 700px;
    float: left;
 }
 
-#part1header {
+.part1header {
    width: 400px;
    margin-left: 100px;
 }
@@ -59,39 +56,13 @@
    margin: 10px;
 }
 
-#part1right aside {
+.part1right p {
+   margin: 30px 0;
+}
+
+.part1right aside {
    border-top-style: solid;
    border-bottom-style: solid;
-   border-width: thin
+   border-width: thin;
 }
 
-
-
-
-#part1left {
-   max-width: 700px;
-   float: left;
-}
-
-#part1header {
-   width: 400px;
-   margin-left: 100px;
-}
-
-.leftbottom {
-   max-width: 330px;
-   float: left;
-   margin: 10px;
-}
-
-#part1right {
-   max-width: 430px;
-   float: left;
-   margin: 10px;
-}
-
-#part1right aside {
-   border-top-style: solid;
-   border-bottom-style: solid;
-   border-width: thin
-}

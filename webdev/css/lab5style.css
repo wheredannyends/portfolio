@@ -12,7 +12,7 @@ body {
    right: -10px;
    top: -10px;
    bottom: 0;
-   background: url('../../images/background.jpg');
+   background: url('../../images/background.jpg'); /*THIS IMAGE IS WAY TOO BIG 1920px max -- FIXED*/
    background-size: cover;
    z-index: -1;
 
@@ -42,9 +42,7 @@ header {
    padding-bottom: 50px;
    text-align: center;
    z-index: 1;
-   border-bottom-style: solid;
-   border-width: thick;
-   border-bottom-color: #A65C41;
+   border-bottom: thick solid #A65C41;
 }
 
 h1 {
