@@ -214,10 +214,85 @@ header a:hover {
 
 
 
-/* ABOUT */
+/* WORK */
 
 .work {
    background-color: #bbbbbb;
    color: #555555;
    padding: 50px 0;
+   text-align: center;
+}
+
+
+
+/* CONTACT */
+
+.contact {
+   background-color: #555555;
+   padding: 50px 0;
+}
+
+.contact article i {
+   font-size: 30px;
+   margin: 10px;
+}
+
+.contact article {
+   width: calc(50% - 20px);
+   float: left;
+   margin: 0 10px;
+}
+
+.contact a {
+   color: #bbbbbb;
+   text-decoration: none;
+   transition: 0.2s;
+}
+
+.contact article a:hover {
+   color: #afff00;
+}
+
+.contact ul a:hover {
+   color: #ff4d00;
+}
+
+.contact ul {
+   text-decoration: none;
+   list-style-type: none;
+   padding: 0 0;
+}
+
+.contact input {
+   width: 100%;
+   float: left;
+   margin-right: 12px;
+   margin-bottom: 12px;
+   padding: 8px;
+   background-color: #bbbbbb;
+   border-style: none;
+}
+
+.contact textarea {
+   width: 100%;
+   height: 100px;
+   padding: 8px;
+   background-color: #bbbbbb;
+   border-style: none;
+}
+
+.contact button {
+   margin: 8px 0;
+   color: #00ffde;
+   text-decoration: none;
+   background-color: #bbbbbb;
+   padding: 5px 25px;
+   display: inline-block;
+   transition: 0.2s;
+   border-style: none;
+}
+
+.contact button:hover {
+   background-color: #00ffde;
+   color: #555555;
 }
