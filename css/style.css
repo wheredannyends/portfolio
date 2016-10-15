@@ -1,168 +1,223 @@
+/*
+
+COLOR PALETTE:
+
+DARK-GREY:     555555
+LIGHT-GREY:    bbbbbb
+
+DARK-ORANGE:   b23600
+LIGHT-ORANGE:  ff4d00
+
+DARK-BLUE:     00b099
+LIGHT-BLUE:    00ffde
+
+DARK-PURPLE:   8300b2
+LIGHT-PURPLE:  bb00ff
+
+DARK-GREEN:    7bb200 
+LIGHT-GREEN:   afff00
+
+*/
 
 
-/* OVERALL STYLE */
+
+
+
+/* OVERALL */
+
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
 
 body {
-   background-color: #92A6A6;
-   text-align: center;
-   max-width: 1140px;
-   margin: 50px auto;
-   font-family: 'Courier New', serif;
+   color: #bbbbbb;
+   background-color: #555555;
+   font-family: "Raleway", "Helvetia", sans-serif;
 }
 
-
-h1 {
-   font-family: 'Oswald', sans-serif;
+.herosection h1 {
+   font-family: "Oswald", "Helvetia", sans-serif;
+   font-size: 6em;
+   color: #ff4d00;
    letter-spacing: 30px;
-   font-size: 4em;
-   margin: 0 auto;
-}
-
-h2 {
-   font-family: 'Oswald', sans-serif;
-   letter-spacing: 24px;
-   font-size: 2em;
-   margin: 0 auto;
+   margin-bottom: 0;
+   text-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
-   font-family: 'Cormorant Garamond', serif;
-   font-size: 1.4em;
+   font-family: "Oswald", "Helvetica", sans-serif;
+   text-align: center;
+   letter-spacing: 20px;
+   font-size: 1.5em;
+   margin: 0 0 40px 0;
+}
+
+h5 {
+   font-family: "Oswald", "Helvetica", sans-serif;
+   font-size: 20px;
+   color: #afff00;
+   letter-spacing: 10px;
+   margin: 50px 0 0 0;
+}
+
+nav {
+   font-family: "Raleway", "Helvetia", sans-serif;
+   letter-spacing: 10px;
+   float: right;
+   margin: 10px auto;
 }
 
 
 
+/* UNIVERSAL CHANGES */
+
+.span-blue {
+   color: #00ffde;
+}
+
+.span-orange {
+   color: #ff4d00;
+}
+
+.span-green {
+   color: #afff00;
+}
+
+.span-purple {
+   color: #bb00ff;
+}
 
 
-/* TOP */
 
-.top {
-   background-color: #E4EAF2;
-   color: #A65C41;
-   max-width: 600px;
+/* HEADER */
+
+header i {
+   font-size: 70px;
+   color: #00ffde;
+}
+
+header a {
+   text-decoration: none;
+   color: #00ffde;
+   transition: 0.2s;
+}
+
+header {
+   background: #555555;
+   height: 80px;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 9999;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+   padding-top: 20px;
+}
+
+
+header nav ul {
+   list-style-type: none;
+}
+
+header nav ul li {
+   display: inline;
+   margin: auto 20px;
+}
+
+header nav a {
+   color: #bbbbbb;
+}
+
+header a:hover {
+   color: #00ffde;
+}
+
+
+/* HERO SECTION */
+
+.herosection {
+   height: 730px;
+   background: url(../images/hero.png) no-repeat center center;
+   background-size: cover;
+   color: white;
+   text-align: center;
+   position: relative;
+   margin-top: 100px;
+   z-index: -999;
+}
+
+.herosection h2 {
+   font-size: 20px;
+   color: #afff00;
+   letter-spacing: 10px;
+   text-shadow: 0 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+.herotext {
+   position: absolute;
+   top: 40%;
+   left: 0;
+   right: 0;
+   transform: translateY(-50%);
+   width: 70%;
    margin: 0 auto;
-   padding: 15px 0;
 }
 
-.top h1 {
-   margin-left: 30px;
+/* ABOUT */
+
+.about {
+   background-color: #555555;
+   margin-top: -50px;
+   box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.3);
+   padding: 40px 0;
 }
 
-.top h2 {
-   margin-left: 28px;
+.aboutcontent {
+   width: 60%;
+   float: left;
+   padding-right: 30px;
 }
 
+.dannypic {
+   width: 30%; height: auto;
+   min-width: 150px;
+   float: left;
+   margin: 0 50px 30px 0;
+   border-radius: 50%;
+   -webkit-shape-outside: circle();
+   shape-outside: circle();
+   -webkit-shape-outside: circle();
+   shape-outside: circle();
+   box-shadow: 0 7px 3px rgba(0, 0, 0, 0.3);
+}
 
+.apps {
+   width: 35%;
+   float: left;
+   text-align: right;
+}
+
+.apps i {
+   font-size: 30px;
+}
+
+.apps ul li {
+   list-style-type: none;
+   display: inline;
+   margin: 10px;
+}
 
 
 
 /* ABOUT */
 
-.about {
-   background-color: #A65C41;
-   color: #E4EAF2;
-   max-width: 600px;
-   margin: 0 auto;
+.work {
+   background-color: #bbbbbb;
+   color: #555555;
    padding: 50px 0;
 }
-
-
-
-/* WORK */
-
-
-.work {
-   background-color: #A65C41;
-   color: #E4EAF2;
-   max-width: 600px;
-   margin: 0 auto;
-   margin-top: -30px;
-   padding: 10px 0;
-}
-
-.work nav ul {
-   list-style-type: none;
-   padding-left: 0;
-   margin-bottom: 20px;
-}
-
-.work nav ul li {
-   margin-top: 5px;
-}
-
-.work nav ul li a {
-   list-style-type: none;
-   text-decoration: none;
-   color: #E4EAF2;
-   transition: 0.2s;
-}
-
-.work nav ul li a:hover {
-   color: #92A6A6;
-}
-
-
-
-
-
-/* CONTACT */
-
-.contact {
-   background-color: #A65C41;
-   color: #E4EAF2;
-   max-width: 600px;
-   margin: 0 auto;
-   padding: 10px 0;
-}
-
-.contact a {
-   text-decoration: none;
-   color: #E4EAF2;
-   transition: 0.2s;
-}
-
-.contact a:hover {
-   color: #92A6A6;
-}
-
-
-
-
-
-/* SOCIAL MEDIA ICONS */
-
-.icons {
-   background-color: #A65C41;
-   max-width: 600px;
-   margin: 0 auto;
-   padding-top: 70px;
-   padding-bottom: 15px;
-   font-size: 2em;
-   letter-spacing: 5px;
-   transition: 0.2s;
-}
-
-.icons a {
-   color: #E4EAF2;
-   transition: 0.2s;
-}
-
-.icons a:hover {
-   color: #92A6A6;
-}
-
-
-
-
-
-/* STRONG GUYS LOGO */
-
-.sglogo {
-   background-color: #E4EAF2;
-   max-width: 600px;
-   margin: 0 auto;
-   padding: 20px 0;
-}
-
-
-
