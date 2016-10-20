@@ -57,6 +57,13 @@ h3 {
    margin: 0 0 40px 0;
 }
 
+h4 {
+   font-family: "Oswald", "Helvetica", sans-serif;
+   text-align: center;
+   letter-spacing: 10px;
+   margin: 20px 0 20px 15px;
+}
+
 h5 {
    font-family: "Oswald", "Helvetica", sans-serif;
    font-size: 20px;
@@ -218,10 +225,53 @@ header a:hover {
 
 .work {
    background-color: #bbbbbb;
-   color: #555555;
+   color: #bbbbbb;
    padding: 50px 0;
    text-align: center;
 }
+
+.work article {
+   width: calc(33.3334% - 20px);
+   float: left;
+   margin: 0 10px;
+   background: #555555;
+}
+
+.work ul {
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+   font-size: 0.8em;
+   margin: 
+}
+
+.work a {
+   color: white;
+   text-decoration: none;
+   background-color: #333;
+   padding: 5px 25px;
+   display: inline-block;
+   margin: 0 0 10px 0;
+   border-radius: 3px;
+   transition: 0.2s;
+}
+
+.work a:hover {
+   background: #19247b;
+}
+
+.work .light-blog h3 {
+   background: #888;
+}
+
+.work .light-blog a {
+   background: #888;
+}
+
+.work .light-blog a:hover {
+   background: #19247b;
+}
+
 
 
 
