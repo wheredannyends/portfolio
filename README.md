@@ -1,5 +1,5 @@
-# Portfolio? Maybe?
+# Portfolio
 
-This isn't really a portfolio, but more of a central location where I can post my schoolwork.
+This is what people would call a portfolio.
 
-It just makes it easier to look at the things I've created, track progress, and transfer files quickly.
+It's more of a base where I can try out fun, new layouts I conjure up.
