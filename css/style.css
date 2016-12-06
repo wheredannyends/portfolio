@@ -95,7 +95,6 @@ ul li {
 .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  color: #aaaaaa;
 }
 
 a {
@@ -232,10 +231,6 @@ a {
   align-items: flex-end;
   flex-direction: column;
   height: 50vh;
-}
-
-.work .hvr-grow:hover {
-  color: #2e2e2e;
 }
 
 .workright p {
