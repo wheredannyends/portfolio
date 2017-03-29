@@ -526,7 +526,7 @@ header {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 header img {
-  height: 80px;
+  height: 60px;
   transition: 0.2s; }
 
 header a:hover {
@@ -707,7 +707,10 @@ nav ul li a:hover {
   font-family: "Raleway", "Helvetica", sans-serif; }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 740px) {
+  .header-title {
+    display: none; }
+
   .about-card {
     width: 100%; }
 
