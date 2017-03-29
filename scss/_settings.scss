@@ -1,0 +1,130 @@
+body {
+	font-family: $raleway;
+	font-weight: 300;
+	color: $dark;
+	background-color: $light;
+	text-align: center;
+	transition: 0.2s;
+}
+
+.wrap {
+	max-width: 1140px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hidden {
+	display: none;
+}
+
+.section {
+	padding: 40px 0;
+}
+
+.dark-section {
+	background-color: $mid-dark;
+}
+
+.button {
+	width: 200px;
+	height: 48px;
+	background-color: $orange;
+	color: $light;
+	transition: 0.2s;
+	box-shadow: $material-1;
+}
+
+.button:hover {
+	background-color: $orange-tint;
+	box-shadow: $material-2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0;
+}
+
+h1,
+h4 {
+	font-family: $raleway;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+h1 span,
+h4 span {
+	font-weight: 300;
+}
+
+h2,
+h3,
+h5 {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 1.8em;
+}
+
+h3 {
+	margin: 40px 0;
+	width: 100%;
+	text-shadow: $material-1;
+}
+
+.dark-section h3 {
+	color: $light;
+}
+
+h3 span {
+	font-weight: 700;
+	font-style: italic;
+	color: $orange;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+p {
+	line-height: 1.6em;
+	text-align: left;
+}
+
+p span {
+	color: $orange;
+	font-weight: 700;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.2s;
+}
