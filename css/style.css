@@ -411,7 +411,8 @@ body {
   color: #1E1E1E;
   background-color: #D2D2D2;
   text-align: center;
-  transition: 0.2s; }
+  transition: 0.2s;
+  font-size: 1em; }
 
 .wrap {
   max-width: 1140px;
@@ -595,7 +596,7 @@ nav ul li a:hover {
 
 /* SKILLS */
 .skills {
-  width: 100%;
+  width: 80%;
   margin: 0 auto; }
 
 .skills-item {
@@ -609,7 +610,7 @@ nav ul li a:hover {
   color: #D2D2D2; }
 
 .skills i {
-  font-size: 4em;
+  font-size: 3em;
   color: #D2D2D2;
   margin-bottom: 12px; }
 
